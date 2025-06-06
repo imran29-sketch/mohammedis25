@@ -1,0 +1,35 @@
+/*
+  Name: Imran Mohammed
+  File: table-styles.css
+  Date: 06 June 2025
+  Description: This CSS file provides styling for the planet data table,
+  including table layout, borders, background colors based on the MDN table structure tutorial.
+*/
+
+body {
+  font-family: Arial, sans-serif;
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+caption {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+th, td {
+  border: 1px solid #999999;
+  padding: 8px 12px;
+  text-align: left;
+}
+
+thead {
+  background-color: #f2f2f2fa;
+}

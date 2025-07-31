@@ -115,3 +115,31 @@ Description: This page shares fun and informative content about wild and urban b
         Your browser does not support the audio element. <a href="media/bear-transcript.txt">Read transcript</a>
       </audio>
     </section>
+
+       <section>
+      <h3>About the author</h3>
+      <p>Evan Wild is an unemployed plumber from Doncaster...</p>
+    </section>
+
+    <section>
+      <h3>Comments</h3>
+      <button id="toggle-comments" aria-controls="comment-section" aria-expanded="false">
+        Show comments
+      </button>
+      <div class="comments" id="comment-section">
+        <p>Bear sightings are common in suburban areas. Share your experiences!</p>
+        <form>
+          <label for="name">Your name:</label>
+          <input type="text" id="name" placeholder="Enter your name">
+
+          <label for="comment">Your comment:</label>
+          <textarea id="comment" placeholder="Enter your comment"></textarea>
+
+          <button type="submit">Add comment</button>
+        </form>
+        <div class="user-comment">
+          <h4>Bob Fossil</h4>
+          <p>Oh I am so glad you taught me all about the big brown angry guys in the woods...</p>
+        </div>
+      </div>
+    </section>
